@@ -40,4 +40,5 @@
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 -- 
-SELECT K0;c16 FROM tbl1 WHERE SUBSTR(k0,1,1) = SUBSTR(c16,1,1);
+
+SELECT k0,c16 FROM tbl1 t WHERE SUBSTR(c16,1,1)=K0;
